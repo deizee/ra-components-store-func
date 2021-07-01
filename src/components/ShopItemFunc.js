@@ -27,5 +27,5 @@ ShopItemFunc.propTypes = {
         descriptionFull: PropTypes.string,
         price: PropTypes.number,
         currency: PropTypes.string
-    })
+    }).isRequired
 }
